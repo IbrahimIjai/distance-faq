@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #040505f5;
+}
+.container{
+    /* position: absolute; */
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+}
+.wrapper{
+    background-color: hsl(180, 88%, 39%, 0.65);
+    margin-bottom: 10px;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+.toggle,
+.content{
+    font-family: "Poppins",sans-serif;
+    color: antiquewhite;
+}
+.toggle{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #020211;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 0;
+}
+.content{
+    /* position: relative; */
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s;
+}
+.logo{
+    background: rgba(221, 215, 215, 0.3);
+    color: #0cb9b9;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+.logo a{
+    color: #ce8a0d;
+    text-decoration: none;
+    margin-right: 2vw;
+    font-size: x-large;
+}
+.logo img{
+    margin-left: 2vw;
+    margin-top: 2vh;
+    height: 8%;
+    width: 20%;
+}
+a {
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+}
+
+.headText{
+    margin-top: 2vh;
+    margin-bottom: 0px;
+    color: antiquewhite;
+    text-align: center;
+    margin-left: 25% ;
+    border-bottom: 2px solid #ce8a0d ;
+    width: 50%;
+    justify-content: center;
+    letter-spacing: 5px;
+    padding: 5px 0px;
+}
+
+.docs{
+    background-color: #ce8a0d;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    margin-bottom: 0vh;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 390px) {
+    .logo a{
+        color: #ce8a0d;
+        text-decoration: none;
+        margin-right: 2vw;
+        font-size: medium;
+    }
+    .logo img{
+        margin-left: 2.5vw;
+        margin-top: 1.2vh;
+        height: 18%;
+        width: 20%;
+    }
+    .toggle{
+        font-size: 12px;
+    }
+    .content{
+        /* position: relative; */
+        font-size: 11px;
+        text-align: justify;
+        line-height: 20px;
+        height: 0;
+        overflow: hidden;
+        transition: all 1s;
+    }
+  }
+  @media only screen and (max-width: 744px) {
+        .toggle{
+            font-size: 14px;
+        }
+        .content{
+            /* position: relative; */
+            font-size: 13px;
+            text-align: justify;
+            line-height: 26px;
+            height: 0;
+            overflow: hidden;
+            transition: all 1s;
+        }
+    }
+  
